@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/css/login.css">
+    <link rel="stylesheet" href="src/css/layout.css">
+    <link rel="stylesheet" href="src/css/bills.css">
+    <link rel="stylesheet" href="src/css/actions.css">
+    <link rel="stylesheet" href="src/css/newbill.css">
+    <link rel="stylesheet" href="src/css/dashboard.css">
+    <link rel="stylesheet" href="src/css/dashboardForm.css">
+    <link rel="stylesheet" href="src/css/loading.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <!-- Material-ui -->
+    <!-- Datepicker.css -->
+    <link rel="stylesheet" href="src/css/datepicker.css">
+    <link rel="icon" href="src/img/Favicon.png">
+    <title>Billed</title>
+  </head>
+  <style>
+    @font-face {
+        font-family: "Roboto";
+        src: url("src/fonts/Roboto/Roboto-Regular.ttf");
+    }
+
+    body {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+    }
+    #root {
+      width: 100%;
+      height: 100%;
+    }
+  </style>  
+  <body>
+    <div id="root"></div>
+    <!-- Datepicker.js -->
+    <script src="src/app/datepicker.js">
+    </script>
+    <script type="module">
+      import Router from "./src/app/Router.js"
+      import store from "./src/app/Store.js"
+      Router()
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="src/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+  </body>
+</html>
